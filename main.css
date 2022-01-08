@@ -1,0 +1,19 @@
+#output {
+	position: relative;
+	resize: none;
+	width: 400px;
+	height: 150px;
+}
+
+#input {
+	resize: none;
+	width: 400px;
+	height: 150px;
+}
+
+#button {
+	position: relative;
+	left: 330px;
+	width: 1%;
+	display: none;
+}
