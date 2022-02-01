@@ -1,18 +1,18 @@
+<!DOCTYPE html>
 <html>
 <head>
 	<title>Ублюдский транслятор</title>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="main.css">
-	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
 	<div>
-		<textarea id="input" autofocus oninput="translateTo(true);" placeholder="Введите текст на русском языке"></textarea>
-		<textarea id="output" oninput="translateFrom(true);" placeholder="Получите текст на ублюдском транслите!"></textarea>
-		<div id="button">
-			<br><button id="actionButton">Транслировать</button>
-		</div>
+		<textarea id="input" autofocus placeholder="Введите текст на русском языке"></textarea>
+		<textarea id="output" placeholder="Получите текст на ублюдском транслите!"></textarea><br>
+		<input type="checkbox" id="atcheck" name="atcheck" checked="1">
+		<label for="atcheck">Транслировать текст автоматически</label>
+		<br><button id="atbtn">Транслировать</button>
 	</div>
 	<p>Транслятор работает полностью на javascript. Распространение не возбраняется.<br>
 	Автор: scaled, igor</p>
